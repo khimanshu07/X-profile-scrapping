@@ -1,4 +1,4 @@
-# X Profile Scraper
+# Twitter Profile Scraper
 
 This project is a Python script that automates the process of logging into Twitter and scraping profile data such as bio, following count, followers count, location, and website. The script uses Selenium for browser automation and handles various edge cases to ensure robust data extraction.
 
