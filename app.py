@@ -13,13 +13,12 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Twitter login credentials - replace with your own
-TWITTER_ID = "6204454301"  # Replace with your phone number with country code (e.g., +1234567890)
-TWITTER_PASSWORD = "br7A@4828"    # Replace with your password
+TWITTER_ID = ""  # Enter your twitter username
+TWITTER_PASSWORD = ""    # Enter your password
 
 def setup_driver():
     """Set up and return a configured Chrome webdriver"""
     options = Options()
-    # Comment out headless mode for debugging if needed
     # options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
